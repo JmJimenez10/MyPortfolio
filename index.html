@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JmPortfolio</title>
+    <link rel="icon" href="images/LogoJMJHfondocurvo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="contenedor">
+      <div id="inicio">
+        <!-- ----------------------------------------------- -->
+        <div class="lines">
+          <div class="line"></div>
+          <div></div>
+          <div class="line"></div>
+        </div>
+        <!-- ----------------------------------------------- -->
+        <h1>José María Jiménez</h1>
+        <p>Loading Web Developer...</p>
+      </div>
+      <nav>
+        <div class="enlaces">
+          <a href="#contenedor-sobremi">Sobre Mí</a>
+          <a href="#contenedor-proyectos">Proyectos</a>
+          <a href="#contenedor-contacto">Contacto</a>
+        </div>
+        <a id="enlace-inicio" href="#">JM</a>
+        <div class="redes-menu">
+          <a href="https://www.linkedin.com/in/jmjimenez10/" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/JmJimenez10" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.instagram.com/_jmjimenez10/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/_JmJimenez10" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+      </nav>
+      <!-- SECCION SOBRE MÍ -->
+      <section id="contenedor-sobremi">
+        <div class="titulo">
+          <h1>Sobre Mí&nbsp;</h1>
+        </div>
+        <div class="sobremi-contenidos">
+          <div id="historia">
+            <div class="historia-parte">
+              <h3>¿Quién soy?</h3>
+              <img src="images/LogoJMJHfondocurvo.png" alt="" />
+              <p>
+                Hola, soy José María, un apasionado de la informática y
+                desarrollador web. A mis 20 años, he descubierto mi verdadera
+                pasión en la programación. Me considero autodidacta y
+                obsesionado por aprender. Mi objetivo es crear experiencias web
+                funcionales y emocionantes. ¡Estoy emocionado por formar parte
+                de este mundo y convertir ideas en realidad!
+              </p>
+            </div>
+            <div class="historia-parte">
+              <h3>Mi formación</h3>
+              <p>
+                Actualmente, estoy cursando el grado superior de Desarrollo de
+                Aplicaciones Web y tengo experiencia en el bachillerato
+                tecnológico. Poseo un nivel B2 de inglés certificado por
+                Cambridge. Además, tengo un firme interés en seguir realizando
+                cursos relacionados con mi campo para estar al día con las
+                últimas tendencias y tecnologías en el desarrollo web.
+              </p>
+            </div>
+          </div>
+          <div id="skills">
+            <h3>Skills</h3>
+            <div class="logo-skills">
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-git-alt"></i>
+              <i class="fa-brands fa-java"></i>
+              <i class="fa-solid fa-database"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /SECCION PROYECTOS -->
+      <section id="contenedor-proyectos">
+        <div class="titulo" id="titulo-proyectos">
+          <h1>Proyectos&nbsp;</h1>
+        </div>
+        <div id="proyectos">
+          <div class="card" id="tres-en-raya">
+            <div class="image"></div>
+            <span class="title">Tres en Raya</span>
+            <span class="leng">JSP, HTML, CSS</span>
+            <a
+              href="https://github.com/JmJimenez02/TresEnRaya-TicTacToe.git"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+          <div class="card" id="interrogacion">
+            <div class="image"></div>
+            <span class="title">Próximamente</span>
+            <span class="leng">?</span>
+            <!-- <a
+              href="https://github.com/JmJimenez02/Portfolio.git"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a> -->
+          </div>
+          <div class="card" id="portfolio">
+            <div class="image"></div>
+            <span class="title">Portfolio</span>
+            <span class="leng">HTML, CSS</span>
+            <a
+              href="https://github.com/JmJimenez02/Portfolio.git"
+              target="_blank"
+              ><i class="fa-brands fa-github" alt="Ver Código"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <!-- SECCION CONTACTO -->
+      <section id="contenedor-contacto">
+        <div class="titulo">
+          <h1>Contacto&nbsp;</h1>
+        </div>
+        <div class="contacto-contenidos">
+          <div id="formulario">
+            <h3>Mensaje</h3>
+            <form class="form">
+              <div class="flex">
+                <label>
+                  <input
+                    required=""
+                    placeholder=" * Nombre"
+                    type="text"
+                    class="input"
+                    id="input-nombre"
+                  />
+                </label>
+
+                <label>
+                  <input
+                    required=""
+                    placeholder=" * Apellidos"
+                    type="text"
+                    class="input"
+                  />
+                </label>
+              </div>
+
+              <label>
+                <input
+                  required=""
+                  placeholder=" * Correo"
+                  type="email"
+                  class="input"
+                />
+              </label>
+
+              <label>
+                <input
+                  type="tel"
+                  placeholder="Número de contacto"
+                  class="input"
+                />
+              </label>
+              <label>
+                <textarea
+                  required=""
+                  cols="50"
+                  rows="4"
+                  placeholder="Mensaje"
+                  class="input01"
+                ></textarea>
+              </label>
+
+              <button class="fancy" href="#">
+                <span class="text">Enviar</span>
+              </button>
+            </form>
+          </div>
+          <div id="redes">
+            <h3>Redes</h3>
+            <div class="logo-redes">
+              <ul>
+                <li>
+                  <i class="fa-brands fa-linkedin"></i>
+                  <a
+                    href="https://www.linkedin.com/in/jmjimenez10/"
+                    target="_blank"
+                    >&nbsp;José María Jiménez</a
+                  >
+                </li>
+                <li>
+                  <i class="fa-brands fa-github"></i>
+                  <a href="https://github.com/JmJimenez10" target="_blank"
+                    >&nbsp;@JmJimenez10</a
+                  >
+                </li>
+                <li>
+                  <i class="fa-brands fa-instagram"></i>
+                  <a
+                    href="https://www.instagram.com/_jmjimenez10/"
+                    target="_blank"
+                    >&nbsp;@_jmjimenez10</a
+                  >
+                </li>
+                <li>
+                  <i class="fa-brands fa-twitter"></i>
+                  <a href="https://twitter.com/_JmJimenez10" target="_blank"
+                    >&nbsp;@_JmJimenez10</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
